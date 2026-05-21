@@ -1,0 +1,86 @@
+    <!doctype html>
+    <html lang="id">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>North Echoes — Kontak</title>
+        <meta
+        name="description"
+        content="Hubungi North Echoes untuk booking, media, atau kolaborasi"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">North Echoes</a>
+            <button
+            id="nav-toggle"
+            class="nav-toggle"
+            aria-label="Buka navigasi"
+            aria-expanded="false"
+            >
+            ☰
+            </button>
+            <nav id="main-nav" class="main-nav" aria-label="Navigasi utama">
+            <ul>
+                <li><a href="index.html" class="nav-link">Beranda</a></li>
+                <li><a href="about.html" class="nav-link">Tentang</a></li>
+                <li><a href="members.html" class="nav-link">Anggota</a></li>
+                <li><a href="music.html" class="nav-link">Musik</a></li>
+                <li><a href="gallery.html" class="nav-link">Galeri</a></li>
+                <li><a href="contact.html" class="nav-link">Kontak</a></li>
+            </ul>
+            </nav>
+        </div>
+        </header>
+
+        <main class="container">
+        <section class="card">
+            <h1>Kontak</h1>
+            <p>
+            Untuk booking, media, atau kolaborasi, isi formulir di bawah atau
+            kirim email ke <strong>northechoes1@gmail.com</strong>.
+            </p>
+
+            <form
+            class="card"
+            method="post"
+            action="https://formspree.io/f/meedappz"
+
+            aria-label="Formulir kontak"
+            >
+            <div class="form-row">
+                <label for="name">Nama</label>
+                <input id="name" name="name" type="text" required />
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+            </div>
+
+            <div class="form-row">
+                <label for="message">Pesan</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <button class="btn" type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+        </main>
+
+        <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <p style="text-align: center;">© <span id="year"></span> North Echoes · 2026</p>
+            <div class="socials" aria-label="Tautan sosial">
+            <a href="https://www.instagram.com/northechoes" target="_blank" aria-label="Instagram">Instagram</a> ·
+            <a href="https://www.youtube.com/@Northechoesofficial" target="_blank" aria-label="YouTube">YouTube</a> ·
+            <a href="https://open.spotify.com/artist/06h4cviSYvKO4dbQOSNvBO?si=otBNqKcARnS9hMV6UJ-RwA" target="_blank" aria-label="Spotify">Spotify</a>
+            </div>
+        </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+    </html>
